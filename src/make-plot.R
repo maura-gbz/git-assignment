@@ -1,6 +1,6 @@
 library(ggplot2)
 
-plot_df <- read.csv("data/average-rainfall.csv")
+plot_df <- read.csv("out/average-rainfall.csv")
 
 g <- ggplot(
   data = plot_df,
